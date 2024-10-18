@@ -9,7 +9,7 @@ import githubLight from "../../assets/images/github-light.svg";
 import githubDark from "../../assets/images/github-dark.svg";
 import linkedinLight from "../../assets/images/linkedin-light.svg";
 import linkedinDark from "../../assets/images/linkedin-dark.svg";
-import CV from "../../assets/Ankit-Saraswat-FullStack.pdf";
+// import CV from "../../assets/Ankit-Saraswat-FullStack.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -58,7 +58,7 @@ function Hero() {
           With a passion for developing modern FullStack web apps for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href="https://ankit-saraswat-portfolio.netlify.app/" target="_blank">
           <button className="hover">Resume</button>
         </a>
       </div>
