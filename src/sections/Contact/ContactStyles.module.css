@@ -58,6 +58,11 @@ input[type='submit']:active{
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+.message{
+    color: rgb(159, 241, 76);
+    margin-top: 10px;
+}
+
 @media(width >= 800px){
     textarea, input:not([type='submit']){
         width: 600px;
